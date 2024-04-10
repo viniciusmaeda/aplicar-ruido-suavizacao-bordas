@@ -5,6 +5,7 @@
 Programa desenvolvido para uma atividade da disciplina de Visão Computacional (turma 2024-1) ofertada pelo professor Dr. Hemerson Pistori. A disciplina é oferecida para os estudantes de graduação e pós-graduação da Universidade Católica Dom Bosco.
 
 O programa tem por objetivo aplicar ruídos, filtros de suavizações e detecções de bordas em imagens. Para cada uma delas, foram implementadas 3 funcionalidades, da seguinte forma:
+
 Ruído
 - Gauss
 - São e pimenta
