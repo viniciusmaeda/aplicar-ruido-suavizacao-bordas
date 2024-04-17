@@ -15,6 +15,7 @@ Suavização
 - Média
 - Mediana
 - Gauss
+- Anisotrópica
 
 Detecção de borda
 - Sobel
@@ -35,7 +36,7 @@ $ python atividadeRuidosArgs.py -i imagem.png -r gauss -pr 9 -s gauss -ps 5 -b s
 O programa espera por 8 (oito) parâmetros, sendo eles:
 - '-i' - o nome da imagem (string), incluindo a extensão do arquivo, exemplo: imagem.jpg
 - '-r' - o ruído aplicado (string), podendo ser: 'gauss', 'sep' e 'poison'
-- '-pr' - parâmetro (número inteiro) para utilizar no ruído. O valor default é 9
+- '-pr' - parâmetro (número inteiro) para utilizar no ruído.
 - '-s' - o filtro de suavização (string), podendo ser: 'mean', 'median' e 'gauss'
 - '-ps' - parâmetro (número inteiro) para utilizar na suavização. O valor default é 5
 - '-b' - o filtro para a detecção da borda (string), podendo ser: 'sobel', 'scharr' e 'canny'
