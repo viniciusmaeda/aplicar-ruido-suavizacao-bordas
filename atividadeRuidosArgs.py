@@ -59,11 +59,16 @@ def aplicarSuavizacao(img, filtro, parametro):
 
 def extrairBordas(img, borda, parametro):
   if (borda == 'sobel'):
+    # aplica o detector de bordas de Sobel
     imgBordas = filters.sobel(img)
   elif (borda == 'scharr'):
+    # aplica o detector de bordas de Scharr
     imgBordas = filters.scharr(img)
   elif (borda == 'canny'):
+    # aplica o detector de bordas de Canny
     imgBordas = feature.canny(img, sigma = parametro)
+    # pode-se definir os limiares de detecção de bordas
+    # imgBordas = feature.canny(img, sigma = parametro, low_threshold = 30, high_threshold = 40)
 
   return imgBordas
 
