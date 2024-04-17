@@ -31,7 +31,9 @@ Detecção de borda
 ## Execução do programa
 Para executar o programa, deve-se salvar uma imagem na pasta assets/ e utilizar o comando abaixo.
 
+```
 $ python atividadeRuidosArgs.py -i imagem.png -r gauss -pr 9 -s gauss -ps 5 -b sobel -pb 5 -ig sim
+```
 
 O programa espera por 8 (oito) parâmetros, sendo eles:
 - '-i' - o nome da imagem (string), incluindo a extensão do arquivo, exemplo: imagem.jpg
